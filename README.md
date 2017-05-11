@@ -10,4 +10,4 @@ archetype project to bootstrap an AppDirect connector
 -DarchetypeGroupId=com.appdirect.sdk.connector \
 -DarchetypeVersion=1.0-SNAPSHOT \
 -DgroupId=<your.project.group.id> \
--DartifactId=<your-project-name>```
+-DartifactId=<your-project-name>
