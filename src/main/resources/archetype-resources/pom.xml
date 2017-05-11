@@ -14,7 +14,7 @@
 	<description>${project.name} Connector</description>
 
 	<properties>
-		<service-integration-sdk.version>1.17</service-integration-sdk.version>
+		<service-integration-sdk.version>1.18</service-integration-sdk.version>
 		<testng.version>6.10</testng.version>
 		<org.assertj.core.version>3.5.2</org.assertj.core.version>
 		<org.mockito.core.version>1.10.19</org.mockito.core.version>
