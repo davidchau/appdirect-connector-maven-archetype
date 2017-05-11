@@ -1,0 +1,41 @@
+<archetype>
+  <id>appdirect-connector-maven-archetype</id>
+  
+  <sources>
+    <source>src/main/java/Application.java</source>
+    <source>src/main/java/RootConfiguration.java</source>
+    <source>src/main/java/handlers/EventHandlersConfiguration.java</source>
+    <source>src/main/java/handlers/AddonSubscriptionCancelHandler.java</source>
+    <source>src/main/java/handlers/AddonSubscriptionOrderHandler.java</source>
+    <source>src/main/java/handlers/EventHandlersConfiguration.java</source>
+    <source>src/main/java/handlers/SubscriptionCancelHandler.java</source>
+    <source>src/main/java/handlers/SubscriptionChangeHandler.java</source>
+    <source>src/main/java/handlers/SubscriptionClosedHandler.java</source>
+    <source>src/main/java/handlers/SubscriptionDeactivatedHandler.java</source>
+    <source>src/main/java/handlers/SubscriptionOrderHandler.java</source>
+    <source>src/main/java/handlers/SubscriptionReactivatedHandler.java</source>
+    <source>src/main/java/handlers/SubscriptionUpcomingInvoiceHandler.java</source>
+    <source>src/main/java/handlers/UserAssignmentHandler.java</source>
+    <source>src/main/java/handlers/UserUnassignmentHandler.java</source>
+  </sources>
+  <resources>
+    <resource>src/main/resources/application.yml</resource>
+    <resource>README.md</resource>
+  </resources>
+  <testSources>
+    <source>src/test/java/ApplicationTest.java</source>
+    <source>src/test/java/handlers/AddonSubscriptionCancelHandlerTest.java</source>
+    <source>src/test/java/handlers/AddonSubscriptionOrderHandlerTest.java</source>
+    <source>src/test/java/handlers/SubscriptionCancelHandlerTest.java</source>
+    <source>src/test/java/handlers/SubscriptionChangeHandlerTest.java</source>
+    <source>src/test/java/handlers/SubscriptionClosedHandlerTest.java</source>
+    <source>src/test/java/handlers/SubscriptionDeactivatedHandlerTest.java</source>
+    <source>src/test/java/handlers/SubscriptionOrderHandlerTest.java</source>
+    <source>src/test/java/handlers/SubscriptionReactivatedHandlerTest.java</source>
+    <source>src/test/java/handlers/SubscriptionUpcomingInvoiceHandlerTest.java</source>
+    <source>src/test/java/handlers/UserAssignmentHandlerTest.java</source>
+    <source>src/test/java/handlers/UserUnassignmentHandlerTest.java</source>
+  </testSources>
+
+  <allowPartial>true</allowPartial>
+</archetype>
