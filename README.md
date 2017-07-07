@@ -13,3 +13,4 @@ mvn archetype:generate \
 -DgroupId=<your.project.group.id> \
 -DartifactId=<your-project-name>
 ```
+Read project's README.md for info about how to compile and run.
