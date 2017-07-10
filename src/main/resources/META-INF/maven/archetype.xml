@@ -17,10 +17,16 @@
     <source>src/main/java/handlers/SubscriptionUpcomingInvoiceHandler.java</source>
     <source>src/main/java/handlers/UserAssignmentHandler.java</source>
     <source>src/main/java/handlers/UserUnassignmentHandler.java</source>
+    <source>src/main/java/security/CredentialsSupplier.java</source>
+    <source>src/main/java/Module.java</source>
   </sources>
   <resources>
     <resource>src/main/resources/application.yml</resource>
     <resource>README.md</resource>
+    <resource>Dockerfile</resource>
+    <resource>check-deploy-integrity.sh</resource>
+    <resource>.gitignore</resource>
+    <resource>src/main/bash/entrypoint.sh</resource>
   </resources>
   <testSources>
     <source>src/test/java/ApplicationTest.java</source>
